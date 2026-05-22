@@ -63,7 +63,6 @@ spec:
     metadata:
       labels:
         app: springboot-azsql-aks
-      annotations:
         azure.workload.identity/use: "true" 
     spec:
       serviceAccountName: <service-account-name>
